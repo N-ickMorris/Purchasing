@@ -1,0 +1,52 @@
+set P := Basic HiTech Sport Lux;
+set O := O1 O2 O3;
+set M := M1 M2 M3;
+set H := H1 H2;
+
+param d :=
+Basic 2000
+HiTech 1500
+Sport 1800
+Lux 1000;
+
+param a := .9;
+
+param Fm :=
+M1 230000
+M2 250000
+M3 310000;
+
+param Fh :=
+H1 90000
+H2 130000;
+
+param b := 10000000;
+
+param c : 	M1 	M2 	M3 :=
+O1			6	12	8			
+O2			4	20	4	
+O3			12	10	5;
+
+param g : 	H1	H2 :=
+Basic		10	5
+HiTech		12	6
+Sport		18	9
+Lux			6	3;
+
+param t : 	M1			M2			M3 :=
+O1			1.666666667	0.833333333	1.25
+O2			2.5			0.5			2.5
+O3			0.833333333	1			2;
+
+param s : 	H1			H2 :=
+Basic		0.1			0.2
+HiTech		0.083333333	0.166666667
+Sport		0.055555556	0.111111111
+Lux			0.166666667	0.333333333;
+
+param r :=
+O1 6000
+O2 6000
+O3 4500;
+
+param e := 333;
